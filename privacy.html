@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index,follow" />
+  <title>CatFill: AI Form Autofill — Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --card: #ffffff;
+      --ink: #1f2328;
+      --muted: #57606a;
+      --line: #e4e7ea;
+      --accent: #2563eb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+            "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+    main {
+      max-width: 760px;
+      margin: 48px auto 80px;
+      padding: 0 20px;
+    }
+    article {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 40px 44px;
+    }
+    h1 { font-size: 28px; line-height: 1.3; margin: 0 0 8px; }
+    h2 { font-size: 19px; margin: 32px 0 10px; }
+    p { margin: 10px 0; }
+    ul { margin: 10px 0; padding-left: 24px; }
+    li { margin: 6px 0; }
+    .meta { color: var(--muted); font-size: 14px; margin-bottom: 8px; }
+    .lead { color: var(--ink); }
+    a { color: var(--accent); }
+    footer {
+      max-width: 760px;
+      margin: 24px auto 0;
+      padding: 0 20px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    @media (max-width: 560px) {
+      article { padding: 24px 20px; }
+      h1 { font-size: 23px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <h1>CatFill: AI Form Autofill — Privacy Policy</h1>
+      <p class="meta">Last updated: August 19, 2026</p>
+      <p class="lead">
+        CatFill is a browser extension that helps users save form information and fill
+        similar forms. This policy describes the data handled by the extension.
+      </p>
+
+      <h2>Data Stored Locally</h2>
+      <p>
+        CatFill stores the following data in the user's Chrome extension storage on the
+        user's device:
+      </p>
+      <ul>
+        <li>
+          Saved profiles and form values, including fields such as name, email, phone
+          number, address, employment details, and answers the user chose to save.
+        </li>
+        <li>AI provider choice, model choice, and API keys entered by the user.</li>
+        <li>
+          File metadata for file inputs, such as a selected file name and size.
+        </li>
+      </ul>
+      <p>
+        CatFill does not operate a developer-controlled server and does not transmit
+        this locally stored data to the CatFill developer.
+      </p>
+
+      <h2>Data Read From Web Pages</h2>
+      <p>
+        When the user explicitly clicks a CatFill action, the extension may read
+        visible, fillable form fields and their labels, placeholders, options, and
+        related instructions from the active tab. It does not read password fields.
+        This information is used only to save a profile, match local data, or perform
+        the user-requested fill action.
+      </p>
+      <p>
+        When the popup is opened on a recruitment page, CatFill may also read the page
+        title, recruitment-page URL, site name, and published
+        <code>JobPosting</code> organization data to identify the hiring company
+        locally. This information is not uploaded. LinkedIn company search is opened
+        only when the user clicks its research link. When the user clicks Glassdoor
+        and grants the optional Glassdoor permission, CatFill sends the detected
+        company name to Glassdoor's employer lookup endpoint to resolve its public
+        employer ID and open the matching overview page. If no exact match is found,
+        CatFill shows candidates or offers a Google search restricted to Glassdoor
+        overview pages.
+      </p>
+
+      <h2>Optional AI Features</h2>
+      <p>
+        AI features are optional. When the user configures an AI provider and
+        explicitly starts AI fill, AI field organization, or AI file analysis, CatFill
+        sends only the information required for that requested feature to the provider
+        selected by the user:
+      </p>
+      <ul>
+        <li>AI fill sends the current page's relevant form fields and the selected profile.</li>
+        <li>AI organization sends the selected profile entries.</li>
+        <li>
+          PDF, text, and spreadsheet analysis first extracts text locally; only the
+          extracted text is sent.
+        </li>
+        <li>Image analysis sends the user-selected image to the selected AI provider.</li>
+      </ul>
+      <p>
+        The applicable provider may be Anthropic, DeepSeek, OpenAI, Google Gemini,
+        OpenRouter, Groq, or Mistral AI, depending on the user's settings. CatFill
+        does not sell user data, use it for advertising, or allow CatFill staff to
+        read it.
+      </p>
+
+      <h2>Security And User Control</h2>
+      <p>
+        All AI API requests use HTTPS endpoints. Users can edit or delete saved fields
+        in the CatFill side panel and can clear extension data through Chrome's
+        extension settings. Users should avoid sending highly sensitive documents or
+        images to an AI provider unless they understand that provider's data policy.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        For privacy questions or support, contact
+        <a href="mailto:irrwood@gmail.com">irrwood@gmail.com</a>.
+      </p>
+    </article>
+    <footer>
+      CatFill: AI Form Autofill · Chrome Web Store listing:
+      <a href="https://chromewebstore.google.com/detail/dgkinncnpdfmfmhkgljkocnefdgohmgp">
+        chromewebstore.google.com/detail/dgkinncnpdfmfmhkgljkocnefdgohmgp
+      </a>
+    </footer>
+  </main>
+</body>
+</html>
