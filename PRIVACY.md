@@ -1,6 +1,6 @@
 # CatFill Privacy Policy
 
-Last updated: 2026-07-14
+Last updated: 2026-08-19
 
 CatFill is a browser extension that helps users save form information and fill similar forms. This policy describes the data handled by the extension.
 
@@ -37,4 +37,4 @@ All AI API requests use HTTPS endpoints. Users can edit or delete saved fields i
 
 ## Contact
 
-Before public release, replace this section with a monitored project contact email or support URL.
+For privacy questions or support, contact irrwood@gmail.com.
