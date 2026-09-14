@@ -1,12 +1,20 @@
 # CatFill: AI Form Autofill
 
+**Scan and save what you type into web forms, then refill similar forms with one click.** Supports multiple contact profiles, and can optionally call DeepSeek, Claude, OpenAI or Gemini for AI-assisted filling. Local matching runs entirely offline.
+
+Install: open `chrome://extensions`, enable Developer mode, click **Load unpacked**, and select this directory (`CatFill/`).
+
+The extension UI is available in English and 中文 (Side panel → Settings → Interface language).
+
+---
+
 扫描并保存网页表单里填过的内容，下次遇到类似表单一键填充。支持多个联系人资料，可选接入 DeepSeek、Claude、OpenAI、Gemini 等 API 做 AI 智能填充。
 
 ## 安装
 
 1. 打开 `chrome://extensions`
 2. 右上角打开「开发者模式」
-3. 点「加载已解压的扩展程序」，选择本目录（`catfill/`）
+3. 点「加载已解压的扩展程序」，选择本目录（`CatFill/`）
 
 ## 使用
 
